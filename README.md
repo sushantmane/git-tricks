@@ -10,7 +10,7 @@ This allows auto-completion of git commands in terminal
  curl -kL https://raw.githubusercontent.com/sushantmane/git-tricks/master/git-autocompletion.sh | bash && . ~/.bashrc
 ```
 
-#### Display current branch on terminal
+#### Display current branch in terminal prompt
 
 To display name of current branch in terminal prompt like this
 
