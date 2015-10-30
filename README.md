@@ -4,7 +4,7 @@ Git: Tips and Tricks
 
 #### Enable Auto-Completion
 
-This allows auto-completion of git commands on terminal
+This allows auto-completion of git commands in terminal
 
 ```bash
  curl -kL https://raw.githubusercontent.com/sushantmane/git-tricks/master/git-autocompletion.sh | bash && . ~/.bashrc
@@ -12,7 +12,7 @@ This allows auto-completion of git commands on terminal
 
 #### Display current branch on terminal
 
-To display name of current branch on terminal like this
+To display name of current branch in terminal prompt like this
 
 ```
  [root (master) git-tricks]$
