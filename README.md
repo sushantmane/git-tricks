@@ -1,8 +1,15 @@
 Git: Tips and Tricks
 ====================
 
+#### Enable auto-completion and display current branch
 
-#### Enable Auto-Completion
+```bash
+ curl -kL https://raw.githubusercontent.com/sushantmane/git-tricks/master/git-setup.sh | bash && . ~/.bashrc
+```
+
+---
+
+#### Enable only Auto-Completion
 
 This allows auto-completion of git commands in terminal
 
@@ -10,7 +17,7 @@ This allows auto-completion of git commands in terminal
  curl -kL https://raw.githubusercontent.com/sushantmane/git-tricks/master/git-autocompletion.sh | bash && . ~/.bashrc
 ```
 
-#### Display current branch in terminal prompt
+#### Display only current branch in terminal prompt
 
 To display name of current branch in terminal prompt like this
 
@@ -22,10 +29,3 @@ To display name of current branch in terminal prompt like this
 ```bash
  curl -kL https://raw.githubusercontent.com/sushantmane/git-tricks/master/git-show-branch.sh | bash && . ~/.bashrc
 ```
-
-#### Enable auto-completion and display current branch
-
-```bash
- curl -kL https://raw.githubusercontent.com/sushantmane/git-tricks/master/git-setup.sh | bash && . ~/.bashrc
-```
-
